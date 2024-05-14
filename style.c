@@ -54,4 +54,19 @@ hr{border-color: yellowgreen; }
     -webkit-backface-visibility: hidden; 
     backface-visibility: hidden;
   }
+.flip-box-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+
+  .flip-box-back {
+    background-color:lightcyan;
+    color: rgb(234, 183, 183);
+    transform: rotateY(180deg);
+  }   
+  
+  body{background-image: url("https://media.gettyimages.com/id/814629502/photo/bundi-rajasthan-india.jpg?s=612x612&w=0&k=20&c=qod2WnxUcRFLY-4hesI4gwhe7zwS-YJ0cnvEIXs7eZM=");
+background-size: 2000px;
+}
 
